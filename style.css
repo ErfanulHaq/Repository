@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    color: #fff;
+    font: 17px Lucida Console, Courier, monospace;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#header {
+    background-color: darkred;
+    color: #fff;
+}
+
+#links a {
+    color: #fff;
+    padding-right: 17px;
+}
+
+#links li {
+    display: inline;
+}
+
+#view {
+    background-position: center;
+    text-align: center;
+}
+
+#about {
+    float: left;
+    width: 60%;
+    box-sizing: border-box;
+}
+
+#skill {
+    float: right;
+    width: 60%;
+    background-color: darkred;
+    color: #E5E7E9;
+    box-sizing: border-box;
+}
+
+#project {
+    float: left;
+    width: 60%;
+    box-sizing: border-box;
+}
+
+#footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+}
